@@ -1,5 +1,7 @@
+exclude: ['vendor/bundle', 'node_modules', '.git', '.bundle', '.saas-cache', '.bowerrc', '.gitignore', 'Gemfile', 'Gemfile.lock']
 title: Jekyll_python Test Site
-description: Pythonでのプログラミングのテスト用サイトです。
+description: Python縺ｧ縺ｮ繝励Ο繧ｰ繝ｩ繝溘Φ繧ｰ縺ｮ繝�繧ｹ繝育畑繧ｵ繧､繝医〒縺吶�
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
+
