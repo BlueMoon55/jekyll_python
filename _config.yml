@@ -1,6 +1,6 @@
 exclude: ['vendor/bundle', 'node_modules', '.git', '.bundle', '.saas-cache', '.bowerrc', '.gitignore', 'Gemfile', 'Gemfile.lock']
 title: Jekyll_python Test Site
-description: PythonでのProgrammingのTest Site
+description: Python Programming Test Site
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
