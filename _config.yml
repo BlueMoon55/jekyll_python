@@ -2,5 +2,5 @@ exclude: ['vendor/bundle', 'node_modules', '.git', '.bundle', '.saas-cache', '.b
 title: Jekyll_python Test Site
 description: Python Programming Test Site
 show_downloads: false
-google_analytics:
+google_analytics: UA-101084548-4
 theme: jekyll-theme-architect
