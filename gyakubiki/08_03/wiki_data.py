@@ -16,7 +16,7 @@ api_params2 = {
                 'rvprop': 'content',
                 'format': 'xmlfm'
               }
-categories = requests.get(url, params=api_params1).json()
+categories = requests.get(url, params=api_params1, verify=False).json()
 page_id = categories['query']['pages']
 if '-1' in page_id:
     print('該当するページがありません')
