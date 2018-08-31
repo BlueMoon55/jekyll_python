@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><user_setting>
+  <option>
+    <tool>
+      <font_size>14</font_size>
+      <browser>Microsoft Internet Explorer</browser>
+      <xsl>kotobun_written.xsl</xsl>
+      <save_setting>0</save_setting>
+    </tool>
+    <search>
+      <length_of_context>10</length_of_context>
+    </search>
+  </option>
+  <history>
+    <key>
+      <key_string>東京</key_string>
+      <key_string>なりすまし</key_string>
+      <key_string>セキュリティ</key_string>
+      <key_string>security</key_string>
+    </key>
+    <filter/>
+  </history>
+  <config>
+    <file_path>config_2018Cyber.xml</file_path>
+  </config>
+</user_setting>

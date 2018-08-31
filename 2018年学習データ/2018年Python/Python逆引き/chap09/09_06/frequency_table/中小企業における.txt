@@ -1,0 +1,80 @@
+No one likes a slow running smartphone, but over the time you may have noticed that your once-speedy Android device has slowed down considerably. There are plenty of tips and tricks to speed up your Android device and make it perform like new. Some of them are:
+
+Clear your Cached Data:
+Android apps are constantly caching small pieces of data which can build up over time in applications that typically affect the performance of the phone and you want to clear an app’s cached data, either to regain some used space or to try to fix a misbehaving app. To clear cache for all the Android apps in one go, follow these steps:
+1. Head into the Settings menu of phone or tablet by pulling down the notification shade and tapping on the gear icon on the top.
+2. Look for storage and tap on it.
+3. Now tap on Cached Data.
+4. Then the pop-up screen will appear for confirmation.
+5. Tap on OK to completely erase all cached data from the system.
+
+While clearing the entire system cache can be helpful, sometimes you may not want to delete everything, and instead, if you choose to delete the cache for specific apps only, then Android systems allow this too. In order to delete the cache for specific apps follows these steps:
+1. Go to the Settings menu of your device.
+2. Search for Apps and tap on it.
+3. Here you will find all the apps on your system, tap on the app for which you want to clear the data.
+4. Tap on Clear Cache to wipe the cache data for the specific app only.
+
+Clearing cached data does not clear other data like logins or saved games, a number of free programs are also available through the Google Play store that can automate the process. Some of the most popular Free Apps for an android phone are App Cache Cleaner and Clean Master.
+
+Disable animations:
+
+One tweak that could speed up your device is disabling animations within the operating system. A hidden settings option in Android will give you access to commands you may have never known existed. These special settings allow you to do a variety of things, but they are meant for advanced users and shouldn’t be changed unless you know what you are doing.
+1. Navigate to Settings in the app drawer on your phone
+2. Tap About phone.
+3. Tap the Build number 7 times; a message will appear that you have enabled Developer options.
+4. Then Return to Settings and Tap Developer options.
+5. Tap Windows animation scale and select “Animation off”.
+6. Repeat Step 5 with Transition animation scale and Animator duration scale.
+
+This will disable animations that occur when you open, close, and switch between apps. Although the interface will look less polished, there should be less lag in performance.
+
+Disable Bloatware:
+
+Manufacturers and carriers often load Android phones with their own apps, these preloaded applications are known as bloatware. This bloatware takes up valuable storage space, clutters your list of installed apps, and may even run automatically at startup, draining battery power in the background.
+Uninstalling these preinstalled apps has some downsides and may result in problems or instability, though, and in some cases may block your phone from getting updates. Furthermore, once these apps are gone, you might not be able to get them back. So, instead of uninstalling bloatware, it is recommended to disable or hide these apps. Android has a built-in way to do this, and it should work for most apps:
+1. Open the Settings menu by pulling down the notification shade and tapping the little gear icon
+2. Tap Apps, swipe over to all category and Scroll down until you find a preinstalled app that you want to disable and tap it.
+3. On the app’s info page, there are two buttons at the top: Disable and Force Stop. Once you tap the Disable button, a popup will appear that tells you it may cause errors in other apps. Just Tap “Disable.
+4. After disabling it, you may also want to tap the “Force Stop” and “Clear Data” buttons as well. You’ll see a warning, so ensure you aren’t disabling anything important.
+
+The above process only disables the useless software. It won’t appear in your app drawer and can’t run in the background, so this helps declutter your phone and save battery power. However, the bloatware apps remain installed on the device, taking up precious storage space. You can find disabled apps at the bottom of the all apps list. Tap a disabled app and tap the Enable button to re-enable it.
+
+Reclaim Drive and SD Card Space:
+
+Most Android devices have two different storage spaces: internal space where apps are stored and SD card where music, photos, and many of apps’ settings are stored. The SD card is easy to clean up—just delete any music, photos, and videos you don’t need. If you see any folders that look like settings for apps you’ve removed, you can delete those too. You can even use an app like SD Maid or the Clean Master to clean up all that cruft for you.
+Cleaning up internal storage is also pretty simple: just uninstall unnecessary apps to free up space and, hopefully, speed up your phone a little bit. You can also move the useful apps to your SD card which will free up that internal space and speed up your phone. To do this,
+1. Just head to Settings > Applications > Manage Applications.
+2. Select an app, and tap the “Move to SD Card” button to move it. Some apps won’t have this ability, but you should find that lots of your space-hogging apps have no problem living on your SD card.
+
+Of course, if you don’t have an SD card in your phone, you’ll just have to delete files and uninstall apps if you’re running out of space. Here’s how to free up space by uninstalling the apps:
+
+1. Navigate to Settings on your phone. You can find settings in the app drawer.
+2. Tap Apps.
+3. Find an app you wish to uninstall and tap on it. Each app displays the amount of storage it is using the app name so you’ll know how much you are freeing up.
+4. Tap Uninstall and select OK to confirm.
+5. Repeat Step 4 as needed until all unwanted apps are removed.
+
+Remove or Reduce Widgets and Live Wallpapers:
+
+Widgets are an amazing feature of the Android operating system that allows you to see and interact with apps on your home screen without needing to actually launch the app. While these can be helpful for finding information quickly which will save your time. But at the same time, they can consume battery of phone and drag the speed of your entire device down. It’s time to cut back or remove them entirely. Reducing the number of widgets, especially data-intensive ones like Facebook, will help your android phone run more smoothly and last longer. We can remove widgets from the home screen by long-pressing the one you wish to delete and drag it to the top of the screen.
+Just like widgets, another cool Android feature is the option to use live wallpaper as your background. However live wallpapers too will slow down the device and drain the battery faster. That’s why, if possible, use normal wallpaper, and not any kind of live wallpaper. You can also change your wallpaper with a long press on the home screen.
+To remove widgets from the home screen, simply long tap the one which you want to remove and then drag it to the top of the screen.
+
+Optimize Chrome Browser:
+
+With about 90 percent of Android users sticking with the Chrome browser, this feature going to help your mobile web browsing. Chrome for Android can significantly reduce cellular data usage by using proxy servers hosted at Google to optimize website content. Data Saver mode in Chrome for Android allows Google to compress the web pages by around 30 % and up to 50% for video, meaning less data usage and faster browsing. To enable it,
+1. Navigate to the Chrome Browser.
+2. Tap the overflow menu button in the upper-right corner.
+3. Tap Settings.
+4. Tap Data Saver.
+5. Toggle the switch in the upper-right corner.
+
+Give It a Battery Boost:
+
+Lots of Android phones are notorious for sucking battery life quickly. If you haven’t dug through your settings in awhile, this is a good time to make sure you’re getting the most out of your battery as possible. This means to lower your screen’s brightness; kill anything you aren’t actively using, the Wi-Fi and Bluetooth off when not in use. Tweak these settings yourself or automate them with a program like Tasker or JuiceDefender for an easy, hassle-free battery life boost.
+
+Get software updates:
+
+To get the best performance from your Android phone or tablet you should make sure you’re running the latest version of the software – or at least the latest available to you. Manufacturers and carriers are continually pushing out new software updates to their devices. It is imperative that you be on the latest firmware as these updates usually include security and bug fixes, among other things that will improve the overall stability of your device. To check to see if there is an update available,
+1. Open Android’s Settings, scroll down and then tap About Phone
+2. Choose the “System updates” option.
