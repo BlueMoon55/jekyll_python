@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setting>
+  <annotator>
+    <li name="MeCab(IPADIC)" os="Windows" annotation="morph" command="D:\MeCab\bin\mecab" option="--node-format=%m\t%f[0]\t%f[1]\t%f[2]\t%f[3]\t%f[4]\t%f[5]\t%f[6]\t%f[7]\t%f[8]\n --unk-format=%m\t%f[0]\t%f[1]\t%f[2]\t%f[3]\t%f[4]\t%f[5]\t%f[6]\t*\t*\n">
+      <extract element="" attribute="" value="" />
+      <chunk delimitor="[。？！]+" maxlength="200" />
+      <result_fields delimitor="\t">
+	<li name="_TEXT" isCompleteMatch="false" />
+	<li name="品詞" isCompleteMatch="false" />
+	<li name="品詞細分類１" />
+	<li name="品詞細分類２" />
+	<li name="品詞細分類３" />
+	<li name="活用型" isCompleteMatch="false" />
+	<li name="活用形" isCompleteMatch="false" />
+	<li name="基本形" isCompleteMatch="false" contextLength="2" />
+	<li name="読み" isCompleteMatch="false" />
+	<li name="発音" />
+      </result_fields>
+    </li>
+    <li name="MeCab(IPADIC)" annotation="morph" command="bash" option="-lc &quot;mecab --node-format='%m\t%f[0]\t%f[1]\t%f[2]\t%f[3]\t%f[4]\t%f[5]\t%f[6]\t%f[7]\t%f[8]\n' --unk-format='%m\t%f[0]\t%f[1]\t%f[2]\t%f[3]\t%f[4]\t%f[5]\t%f[6]\t*\t*\n'&quot;">
+      <!-- 抽出する XML 要素の指定 -->
+      <extract element="" attribute="" value="" />
+      <!-- 「文」の認定（形態素解析する単位）
+	   delimitor: 区切り文字（正規表現）
+	   maxlength: 最大文長（これを超えると強制的に切断）
+      -->
+      <chunk delimitor="[。？！]+" maxlength="200" />
+      <result_fields delimitor="\t">
+	<li name="_TEXT" isCompleteMatch="false" />
+	<li name="品詞" isCompleteMatch="false" />
+	<li name="品詞細分類１" />
+	<li name="品詞細分類２" />
+	<li name="品詞細分類３" />
+	<li name="活用型" isCompleteMatch="false" />
+	<li name="活用形" isCompleteMatch="false" />
+	<li name="基本形" isCompleteMatch="false" contextLength="2" />
+	<li name="読み" isCompleteMatch="false" />
+	<li name="発音" />
+      </result_fields>
+    </li>
+    <li name="MeCab(UniDic)" os="Windows" annotation="morph" command="D:\MeCab\bin\mecab" option="--dicdir=resources\unidic --output-format-type= --node-format=%m\t%f[0]\t%f[1]\t%f[2]\t%f[3]\t%f[4]\t%f[5]\t%f[7]\t%f[8]\t%f[9]\n --unk-format=%m\t%f[0]\t%f[1]\t%f[2]\t%f[3]\t%f[4]\t%f[5]\t*\t*\t*\t*\t*\t*\n" encoding="utf-8">
+      <extract element="" attribute="" value="" />
+      <chunk delimitor="[。？！]+" maxlength="200" />
+      <result_fields delimitor="\t">
+	<li name="_TEXT" isCompleteMatch="false" />
+	<li name="品詞" isCompleteMatch="false" />
+	<li name="品詞細分類１" />
+	<li name="品詞細分類２" />
+	<li name="品詞細分類３" />
+	<li name="活用型" isCompleteMatch="false" />
+	<li name="活用形" isCompleteMatch="false" />
+	<li name="基本形" isCompleteMatch="false" contextLength="2" />
+	<li name="読み" isCompleteMatch="false" />
+	<li name="発音" />
+      </result_fields>
+    </li>
+    <li name="MeCab(UniDic)" annotation="morph" command="bash" option="-lc &quot;mecab --dicdir=resources/unidic --output-format-type= --node-format='%m\t%f[0]\t%f[1]\t%f[2]\t%f[3]\t%f[4]\t%f[5]\t%f[7]\t%f[8]\t%f[9]\n' --unk-format='%m\t%f[0]\t%f[1]\t%f[2]\t%f[3]\t%f[4]\t%f[5]\t*\t*\t*\t*\t*\t*\n'&quot;" encoding="utf-8">
+      <extract element="" attribute="" value="" />
+      <chunk delimitor="[。？！]+" maxlength="200" />
+      <result_fields delimitor="\t">
+	<li name="_TEXT" isCompleteMatch="false" />
+	<li name="品詞" isCompleteMatch="false" />
+	<li name="品詞細分類１" />
+	<li name="品詞細分類２" />
+	<li name="品詞細分類３" />
+	<li name="活用型" isCompleteMatch="false" />
+	<li name="活用形" isCompleteMatch="false" />
+	<li name="基本形" isCompleteMatch="false" contextLength="2" />
+	<li name="読み" isCompleteMatch="false" />
+	<li name="発音" />
+      </result_fields>
+    </li>
+    <li name="JUMAN" os="Windows" annotation="morph" command="C:\Program Files\juman\juman" option="-b">
+      <extract element="" attribute="" value="" />
+      <chunk delimitor="[。？]+" maxlength="200" />
+      <result_fields delimitor=" ">
+	<li name="_TEXT" isCompleteMatch="false" />
+	<li name="読み" isCompleteMatch="false" />
+	<li name="基本形" isCompleteMatch="false" contextLength="2" />
+	<li name="品詞" isCompleteMatch="false" />
+	<li name="_unused1"/>
+	<li name="細品詞" />
+	<li name="_unused2"/>
+	<li name="活用型" isCompleteMatch="false" />
+	<li name="_unused3"/>
+	<li name="活用形" isCompleteMatch="false" />
+      </result_fields>
+    </li>
+    <li name="JUMAN" annotation="morph" command="juman" option="-b">
+      <extract element="" attribute="" value="" />
+      <chunk delimitor="[。？！]+" maxlength="200" />
+      <result_fields delimitor=" ">
+	<li name="_TEXT" isCompleteMatch="false" />
+	<li name="読み" isCompleteMatch="false" />
+	<li name="基本形" isCompleteMatch="false" contextLength="2" />
+	<li name="品詞" isCompleteMatch="false" />
+	<li name="_unused1"/>
+	<li name="細品詞" />
+	<li name="_unused2"/>
+	<li name="活用型" isCompleteMatch="false" />
+	<li name="_unused3"/>
+	<li name="活用形" isCompleteMatch="false" />
+      </result_fields>
+    </li>
+    <li name="JUMAN++" os="linux" annotation="morph" command="jumanpp" option="--force-single-path">
+      <extract element="" attribute="" value="" />
+      <chunk delimitor="[。？！]+" maxlength="200" />
+      <result_fields delimitor=" ">
+	<li name="_TEXT" isCompleteMatch="false" />
+	<li name="読み" isCompleteMatch="false" />
+	<li name="基本形" isCompleteMatch="false" contextLength="2" />
+	<li name="品詞" isCompleteMatch="false" />
+	<li name="_unused1"/>
+	<li name="細品詞" />
+	<li name="_unused2"/>
+	<li name="活用型" isCompleteMatch="false" />
+	<li name="_unused3"/>
+	<li name="活用形" isCompleteMatch="false" />
+      </result_fields>
+    </li>
+  </annotator>
+</setting>
+  
