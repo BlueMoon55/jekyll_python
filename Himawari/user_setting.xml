@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><user_setting>
+  <option>
+    <tool>
+      <font_size>14</font_size>
+      <browser>Microsoft Internet Explorer</browser>
+      <xsl>kotobun_written.xsl</xsl>
+      <save_setting>0</save_setting>
+    </tool>
+    <search>
+      <length_of_context>30</length_of_context>
+    </search>
+  </option>
+  <history>
+    <key>
+      <key_string>東京</key_string>
+      <key_string>15408</key_string>
+      <key_string>資料送付</key_string>
+      <key_string>ビジネスメール詐欺</key_string>
+      <key_string>nisc</key_string>
+      <key_string>倫理</key_string>
+      <key_string>なりすまし</key_string>
+      <key_string>ビジネスメール</key_string>
+      <key_string>ECサイト</key_string>
+      <key_string>IoT</key_string>
+      <key_string>Society4.0</key_string>
+      <key_string>Society 4.0</key_string>
+      <key_string>Society</key_string>
+      <key_string>サプライチェーン</key_string>
+      <key_string>Society5.0</key_string>
+      <key_string>セキュリティ</key_string>
+      <key_prev>A13</key_prev>
+    </key>
+    <filter/>
+  </history>
+  <config>
+    <file_path>config_Himawari_Import_html_Cyber.xml</file_path>
+  </config>
+</user_setting>
